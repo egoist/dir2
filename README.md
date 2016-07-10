@@ -26,7 +26,7 @@ dir2.sync('.')
 
 ## API
 
-### dir2(sourceDirectory)
+### dir2(sourceDirectory, [options])
 
 #### sourceDirectory
 
@@ -34,6 +34,15 @@ Type: `string`<br>
 Required: `true`
 
 The directory to look into.
+
+#### options
+
+##### prefix
+
+Type: `Boolean`<br>
+Default: `false`
+
+Prefixing source path to returned directory name. Like `.git` => `/source/path/.git`.
 
 ## License
 
